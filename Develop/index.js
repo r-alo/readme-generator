@@ -1,8 +1,8 @@
-// TODO: Include packages needed for this application
+// Packages needed for this application
 const inquirer = require('inquirer');
 const fs = require('fs');
 const markDown = require('./utils/generateMarkdown')
-// TODO: Create an array of questions for user input
+// Array of questions for user input
 const questions = [
     {
         type: 'input',
@@ -29,12 +29,9 @@ const questions = [
         name: 'gitList', 
         message: "5. Choose the License(s) for the project (required):", 
         choices: [
-            'Academic Free License',
             'Apache license 2.0',
             'Artistic license 2.0',
             'Boost Software License 1.0',
-            'BSD 2 - clause "Simplified" license',
-            'BSD 3 - clause "New" or "Revised" license',
             'BSD 3 - clause Clear license',
             'Creative Commons license family',
             'Creative Commons Zero v1.0 Universal',
@@ -42,16 +39,11 @@ const questions = [
             'Creative Commons Attribution Share Alike 4.0',
             'Do What The F * ck You Want To Public License',
             'Educational Community License v2.0',
-            'Eclipse Public License 1.0	',
             'Eclipse Public License 2.0',
             'European Union Public License 1.1',
             'GNU Affero General Public License v3.0	',
             'GNU General Public License family',
-            'GNU General Public License v2.0',
-            'GNU General Public License v3.0',
             'GNU Lesser General Public License family',
-            'GNU Lesser General Public License v2.1',
-            'GNU Lesser General Public License v3.0',
             'ISC',
             'LaTeX Project Public License v1.3c',
             'Microsoft Public License',
