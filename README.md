@@ -13,7 +13,7 @@ node index.js
 ## Deployment
 ### Results:
 
-* [GitHub Page](https://r-alo.github.io/work-day-scheduler/)
+* [GitHub Page](https://github.com/r-alo/readme-generator)
 
 
 * ![Functionality of work day scheduler](./Assets/read-me.gif)
